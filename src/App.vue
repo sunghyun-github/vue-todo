@@ -38,6 +38,7 @@ function deleteItem(id) {
   console.log(itemToDelete);
   // 삭제할 아이템의 위치찾기
   const index = data.items.indexOf(itemToDelete);
+
   // splice(시작위치, 삭제개수)
   data.items.splice(index, 1);
 }
@@ -53,6 +54,10 @@ function test3() {
   console.log('11');
 }
 test3();
+function testPSH() {
+  console.log('11');
+}
+testPSH();
 </script>
 
 <template>
