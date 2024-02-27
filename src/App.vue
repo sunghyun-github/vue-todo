@@ -50,14 +50,10 @@ function test2() {
   console.log('11');
 }
 test2();
-function test3() {
+function pshtest() {
   console.log('11');
 }
-test3();
-function testPSH() {
-  console.log('11');
-}
-testPSH();
+pshtest();
 </script>
 
 <template>
