@@ -41,14 +41,10 @@ function deleteItem(id) {
   // splice(시작위치, 삭제개수)
   data.items.splice(index, 1);
 }
-// const deleteItem = (id) => {
-//   // 해당 id에 맞는 아이템을 찾아서 반환
-//   const itemToDelete = data.items.find((item) => item.id === id);
-
-//   // 해당 아이템의 인덱스를 찾아서 삭제
-//   const index = data.items.indexOf(itemToDelete);
-//   data.items.splice(index, 1);
-// };
+function test() {
+  console.log('11');
+}
+test();
 </script>
 
 <template>
