@@ -41,14 +41,10 @@ function deleteItem(id) {
   // splice(시작위치, 삭제개수)
   data.items.splice(index, 1);
 }
-// const deleteItem = (id) => {
-//   // 해당 id에 맞는 아이템을 찾아서 반환
-//   const itemToDelete = data.items.find((item) => item.id === id);
-
-//   // 해당 아이템의 인덱스를 찾아서 삭제
-//   const index = data.items.indexOf(itemToDelete);
-//   data.items.splice(index, 1);
-// };
+function test() {
+  console.log('11');
+}
+test();
 </script>
 
 <template>
@@ -56,7 +52,7 @@ function deleteItem(id) {
     <h1>Simple to-do list</h1>
     <div class="todo_count">
       <!-- 템플릿 내부에 데이터 표현시 {{ }} 사용 -->
-      완료된 할일: {{ isComplete }} / 할 일: {{ totalItems }}
+      완료: {{ isComplete }} / 할 일: {{ totalItems }}
     </div>
     <div class="todo_add">
       <!-- v-model 디렉티브는 폼요소와 데이터를 양방향으로 연결 -->
