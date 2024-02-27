@@ -56,7 +56,7 @@ function deleteItem(id) {
     <h1>Simple to-do list</h1>
     <div class="todo_count">
       <!-- 템플릿 내부에 데이터 표현시 {{ }} 사용 -->
-      완료: {{ isComplete }} / 할 일: {{ totalItems }}
+      완료된 할일: {{ isComplete }} / 할 일: {{ totalItems }}
     </div>
     <div class="todo_add">
       <!-- v-model 디렉티브는 폼요소와 데이터를 양방향으로 연결 -->
